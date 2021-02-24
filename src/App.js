@@ -46,6 +46,7 @@ function App() {
             'x-rapidapi-key': '28728db04dmsh34d3f140dd059fap1c388ejsn7288577afcf7'
           }
         });
+      console.log(data)
       setLoading(false);
     } catch (err) {
       setError(err.message);
